@@ -12,8 +12,8 @@ git clone https://github.com/tmr232/gengen-demo
 
 cd gengen-demo
 
-# Install dependencies
-go install 
+# Download dependencies
+go mod tidy 
 
 # Run go-generate to generate the generator implementation
 go generate -tags gengen
